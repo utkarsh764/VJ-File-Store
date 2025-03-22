@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "22182189"))
 API_HASH = environ.get("API_HASH", "5e7c4088f8e23d0ab61e29ae11960bf5")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8184665595:AAHasatOstcUgATCWbneK-j95ojTpmr53vo")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7280622667:AAHF-HjiFIiSW6kiexBLfApWEyvKo7ui_b0")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1214167849').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Utkarsh_Renamea_bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "@Bnvjknbb_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
